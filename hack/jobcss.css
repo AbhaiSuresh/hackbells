@@ -1,0 +1,99 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+p,
+ul,
+li,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Header styles */
+header {
+  background-color: #fff;
+  /* Set your desired background color */
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.nav {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  margin: 0 10px;
+}
+
+/* Hero section styles */
+.hero {
+  background-color: #f0f0f0;
+  /* Set your desired background color */
+  text-align: center;
+  padding: 50px 0;
+}
+
+.hero h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+/* Featured jobs section styles */
+.featured-jobs {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.container-inside {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: #fff;
+  /* Set your desired background color */
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  border: 2px solid black;
+  padding: 10px 20px;
+  margin: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  /* Set your desired background color */
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav {
+    margin: 10px 0;
+  }
+}
